@@ -5,7 +5,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/jakekeeys/hg612-exporter/pkg/hg612"
+	"github.com/nikdoof/hg612-exporter/pkg/hg612"
 )
 
 type dslMetricsCollector struct {

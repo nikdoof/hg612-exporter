@@ -10,9 +10,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 
-	"github.com/jakekeeys/hg612-exporter/internal/metrics"
-	"github.com/jakekeeys/hg612-exporter/internal/rest"
-	"github.com/jakekeeys/hg612-exporter/pkg/hg612"
+	"github.com/nikdoof/hg612-exporter/internal/metrics"
+	"github.com/nikdoof/hg612-exporter/internal/rest"
+	"github.com/nikdoof/hg612-exporter/pkg/hg612"
 )
 
 func main() {

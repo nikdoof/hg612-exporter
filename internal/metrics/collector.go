@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jakekeeys/hg612-exporter/pkg/hg612"
+	"github.com/nikdoof/hg612-exporter/pkg/hg612"
 )
 
 type Collector interface {
