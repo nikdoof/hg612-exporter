@@ -16,10 +16,9 @@ spec:
       annotations:
         prometheus.io/scrape: 'true'
         prometheus.io/port: '8080'
-        prometheus.io/path: '/prometheus'
     spec:
       containers:
-        - image: quay.io/jakekeeys/hg612-exporter:latest
+        - image: nikdoof/hg612-exporter:latest
           imagePullPolicy: Always
           name: hg612-exporter
           args:
