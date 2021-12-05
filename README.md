@@ -1,7 +1,5 @@
 # HG612 Prometheus Exporter
 
-[![Docker Repository on Quay](https://quay.io/repository/jakekeeys/hg612-exporter/status "Docker Repository on Quay")](https://quay.io/repository/jakekeeys/hg612-exporter)
-
 A prometheus exporter for the HG612 modem
 
 ![](https://i0.wp.com/codeblog.dotsandbrackets.com/wp-content/uploads/2017/01/prometheus-logo.jpg?resize=231%2C231) ![](https://kitz.co.uk/routers/images/huawei_echolife_hg612.jpg)
@@ -20,7 +18,7 @@ NAME:
    hg612 prometheus exporter - a metrics exporter for the hg612
 
 USAGE:
-   main [global options] command [command options] [arguments...]
+   hg612-exporter [global options] command [command options] [arguments...]
 
 COMMANDS:
    help, h  Shows a list of commands or help for one command
@@ -39,7 +37,7 @@ GLOBAL OPTIONS:
 
 ## Run
 * `go run main.go --host <host> --identifier <identifier>`
-* `docker run docker run quay.io/jakekeeys/hg612-exporter --host <host> --identifier <identifier>`
+* `docker run docker run nikdoof/hg612-exporter --host <host> --identifier <identifier>`
 
 ## Metrics
 
@@ -81,4 +79,4 @@ GLOBAL OPTIONS:
 
 ### Grafana Dashboard Preview
 
-![](https://raw.githubusercontent.com/jakekeeys/hg612-exporter/master/resources/dashboard.png)
+![](https://raw.githubusercontent.com/nikdoof/hg612-exporter/master/resources/dashboard.png)
